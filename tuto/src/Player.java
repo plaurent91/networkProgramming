@@ -19,6 +19,10 @@ public class Player {
 		this.score = 0;
 	}
 	
+	public int getScore(){
+		return score;
+	}
+	
 	public Socket getSocket() {
 		return socket;
 	}
@@ -27,7 +31,7 @@ public class Player {
 		return name;
 	}
 	
-	public void increment () {
+	public void incrementScore() {
 		score ++;
 	}
 
