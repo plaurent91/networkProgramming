@@ -8,7 +8,7 @@ public class Server {
 		
 		int maxNumber;
 		if (max_Number.length == 0)
-			maxNumber = 2; // 2 default players
+			maxNumber = 2; // 2 default players - if you want more, just add it in the args[]
 		else maxNumber = Integer.parseInt(max_Number[0]);
 		ServerSocket socket;
 		try {

@@ -38,8 +38,8 @@ public class Player {
 		return chosingWindow.getChoice();
 	}
 	
-	public void incrementScore() {
-		score ++;
+	public void incrementScore(int a) {
+		score += a;
 	}
 
 }

@@ -30,7 +30,7 @@ public class Accept_clients implements Runnable {
 				System.out.println(player [nbrclient -1 ].getName()+ " is now connected !");
 			}
 			socketserver.close();
-			System.out.println("Number of connexion have reached a maximum --> Server is now full");
+			System.out.println("Number of connexion has reached a maximum --> Server is now full");
 			System.out.println("GAME STARTS !!!");
 			
 			//Starting the game:
