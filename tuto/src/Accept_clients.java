@@ -8,11 +8,12 @@ public class Accept_clients implements Runnable {
 	private ServerSocket socketserver;
 	private Socket socket;
 	private int nbrclient = 0;
-	private int maxNumber = 2;
+	private int maxNumber;
 	private Player[] player = new Player[2];
 
-	public Accept_clients(ServerSocket s){
+	public Accept_clients(ServerSocket s, int number){
 		socketserver = s;
+		maxNumber = number;
 	}
 
 	public void run() {
