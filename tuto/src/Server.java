@@ -16,6 +16,7 @@ public class Server {
 			Thread t = new Thread(new Accept_clients(socket, maxNumber));
 			t.start();
 			System.out.println("Server is ready !");
+			System.out.println(maxNumber + " players in the game");
 
 		} catch (IOException e) {
 

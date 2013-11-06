@@ -9,11 +9,13 @@ public class Accept_clients implements Runnable {
 	private Socket socket;
 	private int nbrclient = 0;
 	private int maxNumber;
-	private Player[] player = new Player[2];
+	private Player[] player;
+	private Game game;
 
 	public Accept_clients(ServerSocket s, int number){
 		socketserver = s;
 		maxNumber = number;
+		player = new Player [maxNumber];
 	}
 
 	public void run() {
@@ -28,7 +30,14 @@ public class Accept_clients implements Runnable {
 				System.out.println(player [nbrclient -1 ].getName()+ " is now connected !");
 			}
 			socketserver.close();
-			System.out.println("Number of connexion have reached a maximum --> Server is now down");
+			System.out.println("Number of connexion have reached a maximum --> Server is now full");
+			System.out.println("GAME STARTS !!!");
+			
+			//Starting the game:
+			
+			game = new Game (player);
+			
+			//Closing the sockets !!!
 			for (int i = 0; i<maxNumber; i++){
 				player[i].getSocket().close();
 			}
