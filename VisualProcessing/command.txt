@@ -1,0 +1,6 @@
+.delete <num>: delete every image in your DB from <num>
+.display <num>: display image<num> from your DB
+.help: display the available commands
+.ref: take a reference photo stored in the database
+.size: display your database size
+.sort: image to compare vs all the images in the DB
