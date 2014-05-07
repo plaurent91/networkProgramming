@@ -12,7 +12,7 @@ import java.net.*;
 /**
  * This is the principal class of the GUI application.
  * If you just need to implement new functionalities, it is irrelevant to modify it.
- *
+ * @author pierre : pierre
  */
 
 public class Application implements Runnable {
