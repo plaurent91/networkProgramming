@@ -1,0 +1,7 @@
+/: cleaning the console
+chat <User>: send message to User
+description: provide the room description
+destroyRoom: delete the room (only if owner)
+isOnline: list the available clients
+owner: show who is the room owner
+quit: leaving the Market
