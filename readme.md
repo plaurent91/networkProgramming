@@ -1,4 +1,4 @@
-NetworkProgramming presentation
+Network Programming presentation
 =========================
 Presentation of my Network Programming repository
 
@@ -7,12 +7,15 @@ Presentation of my Network Programming repository
 
 ## Projects
  * DatabaseProgramming : 
+ * 
 
 ### Context of the projects presented
  
- * University projects
+ * University and personnal projects
 
 ### Other
+
+ * Java oriented
 
 ###Contact :
 plaurent.best < at > gmail < dot > com
