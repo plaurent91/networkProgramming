@@ -213,7 +213,7 @@ public class Client extends UnicastRemoteObject implements ClientSerie {
                 break;
             }
             case "help": {
-                BufferedReader buff = new BufferedReader(new FileReader("../../command"));
+                BufferedReader buff = new BufferedReader(new FileReader("command"));
                 String line;
                 while ((line = buff.readLine()) != null) {
                     console.setText(line);
