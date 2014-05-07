@@ -16,6 +16,7 @@ Presentation of my Network Programming repository
 ### Other
 
  * Java oriented
+ * To see an overview of each project, please refer to Readme.pdf or read the instructions in the appropriate readme.md files
 
 ###Contact :
 plaurent.best < at > gmail < dot > com
