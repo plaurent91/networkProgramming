@@ -3,6 +3,7 @@ build/
 dist/
 DBow2/
 *.xml
+*.cpp
 
 # Template gitHub
 

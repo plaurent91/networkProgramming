@@ -17,7 +17,7 @@ Visual Processing Project presentation
 ### Recquirements
 
  * To make the project works on its  own, contact me or download DBoW2 http://webdiis.unizar.es/~dorian/index.php?p=32
- * You'll also need the executable wirtten over C++: just contact me to obtain the executable (I'm just searching for the src code over it, think I deleted it :S)
+ * You'll also need the executable wirtten over C++: just contact me to obtain the executable 
 
 ### Context of the projects presented
  
