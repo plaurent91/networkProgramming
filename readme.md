@@ -14,6 +14,8 @@ Tag : RMI, Network, Database, GUI
 * VisualProcessing: 
 Continue an image processing project which aims to compare a taken picture to reference pictures stored on a remote computer in a DataBase.
 
+ Objective :
+
 1) Connect to the DataBase server and communicate with it
 
 2) Take picture from a webcam
@@ -24,6 +26,7 @@ See presentation video: https://www.youtube.com/watch?v=qOtUfWRKFsU
 
 * DatabaseProgrammation: repo with works done on network and database programming with Java.
  This project aims to create a DataBase for a sport competition.
+
  Objective :
 
  1) Allow different admin to work on the data sheet, provide notification and live update of the DB everytime a user modify it.
